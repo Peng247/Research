@@ -1,0 +1,24 @@
+Package: GLFM
+Title: Generalized Linear Function Regression Model
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zhang", "Bingsong", , "zhangbingsong@gdmu.edu.cn", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4904-6961"))
+Description: Glfm function is to fit generalized linear functional model
+    to test the association between a group of variables and response.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    fda,
+    ggplot2,
+    globaltest,
+    MASS,
+    Matrix,
+    pacman,
+    reshape2
+Depends: 
+    R (>= 2.10)
+LazyData: true
